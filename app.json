@@ -3,12 +3,14 @@
     "name": "Vendedor Rutas",
     "slug": "vendedor-rutas-charcuteria",
     "version": "1.0.0",
-    "ios": {
-      "supportsTabletMode": false,
-      "requireFullScreen": false
-    },
+    "ios": {},
     "android": {
       "package": "com.ecuadorcharcuteria.vendedorrutas"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bf380571-2b95-4fc6-8edb-3dd580d19543"
+      }
     }
   }
 }
