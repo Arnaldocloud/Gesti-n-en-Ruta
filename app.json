@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Vendedor Rutas",
+    "slug": "vendedor-rutas-charcuteria",
+    "version": "1.0.0",
+    "ios": {
+      "supportsTabletMode": false,
+      "requireFullScreen": false
+    },
+    "android": {
+      "package": "com.ecuadorcharcuteria.vendedorrutas"
+    }
+  }
+}

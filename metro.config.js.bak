@@ -1,0 +1,7 @@
+const { getDefaultConfig } = require('expo/metro-config');
+
+// Use default Expo Metro config. The nativewind Babel plugin is already
+// configured in babel.config.js; the nativewind metro plugin is optional.
+const config = getDefaultConfig(__dirname);
+
+module.exports = config;

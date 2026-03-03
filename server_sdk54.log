@@ -1,0 +1,14 @@
+Starting project at D:\proyectos\propuesta-ecuador
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+The following packages should be updated for best compatibility with the installed expo version:
+  expo-router@3.5.24 - expected version: ~6.0.23
+  expo-status-bar@1.12.1 - expected version: ~3.0.9
+  react@18.2.0 - expected version: 19.1.0
+  react-native@0.74.5 - expected version: 0.81.5
+  @types/react@18.2.79 - expected version: ~19.1.10
+  metro@0.80.12 - expected version: ^0.83.1
+  typescript@5.3.3 - expected version: ~5.9.2
+Your project may not work correctly until you install the expected versions of the packages.
+Waiting on http://localhost:8081
+Logs for your project will appear below.

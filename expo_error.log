@@ -1,0 +1,29 @@
+Starting project at D:\proyectos\propuesta-ecuador
+Error: Cannot find module '@react-native-community/cli-server-api'
+Require stack:
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\server\metro\instantiateMetro.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\server\metro\MetroBundlerDevServer.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\server\DevServerManager.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\startAsync.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\index.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\bin\cli
+- D:\proyectos\propuesta-ecuador\node_modules\expo\bin\cli
+Error: Cannot find module '@react-native-community/cli-server-api'
+Require stack:
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\server\metro\instantiateMetro.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\server\metro\MetroBundlerDevServer.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\server\DevServerManager.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\startAsync.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\src\start\index.js
+- D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\build\bin\cli
+- D:\proyectos\propuesta-ecuador\node_modules\expo\bin\cli
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at instantiateMetroAsync (D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\src\start\server\metro\instantiateMetro.ts:194:5)
+    at MetroBundlerDevServer.startImplementationAsync (D:\proyectos\propuesta-ecuador\node_modules\@expo\cli\src\start\server\metro\MetroBundlerDevServer.ts:628:58)

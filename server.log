@@ -1,0 +1,50 @@
+Starting project at D:\proyectos\propuesta-ecuador
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+
+TypeScript: The tsconfig.json has been updated (Use EXPO_NO_TYPESCRIPT_SETUP to skip)
+
+ÔÇ║ Required modifications made to the tsconfig.json:
+
+  extends is now expo/tsconfig.base
+
+
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Error: ENOENT: no such file or directory, scandir 'D:\proyectos\propuesta-ecuador\assets'
+Error: ENOENT: no such file or directory, scandir 'D:\proyectos\propuesta-ecuador\assets'
+Error: ENOENT: no such file or directory, scandir 'D:\proyectos\propuesta-ecuador\assets'
+Error: ENOENT: no such file or directory, scandir 'D:\proyectos\propuesta-ecuador\assets'
+Error: ENOENT: no such file or directory, scandir 'D:\proyectos\propuesta-ecuador\assets'
+ ERROR  Project is incompatible with this version of Expo Go
+
+ÔÇó The installed version of Expo Go is for SDK 54.
+ÔÇó The project you opened uses SDK 51.
+
+How to fix this error:
+Either upgrade this project to SDK 54 or install an older version of Expo Go that is compatible with your project.
+
+<a href='https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/'>Learn how to upgrade to SDK 54.</a>
+
+<a href='https://expo.dev/go?sdkVersion=51&platform=android&device=true'>Learn how to install Expo Go for SDK 51</a>.
+node:internal/fs/watchers:255
+    throw error;
+    ^
+
+Error: ENOENT: no such file or directory, watch 'D:\proyectos\propuesta-ecuador\node_modules\@expo\.cli-V5wcciFR\static\template'
+    at FSWatcher.<computed> (node:internal/fs/watchers:247:19)
+    at Object.watch (node:fs:2549:36)
+    at NodeWatcher._watchdir (D:\proyectos\propuesta-ecuador\node_modules\metro-file-map\src\watchers\NodeWatcher.js:89:24)
+    at D:\proyectos\propuesta-ecuador\node_modules\metro-file-map\src\watchers\NodeWatcher.js:185:22
+    at Walker.<anonymous> (D:\proyectos\propuesta-ecuador\node_modules\metro-file-map\src\watchers\common.js:81:31)
+    at Walker.emit (node:events:518:28)
+    at D:\proyectos\propuesta-ecuador\node_modules\walker\lib\walker.js:69:16
+    at FSReqCallback.oncomplete (node:fs:187:23) {
+  errno: -4058,
+  syscall: 'watch',
+  code: 'ENOENT',
+  path: 'D:\\proyectos\\propuesta-ecuador\\node_modules\\@expo\\.cli-V5wcciFR\\static\\template',
+  filename: 'D:\\proyectos\\propuesta-ecuador\\node_modules\\@expo\\.cli-V5wcciFR\\static\\template'
+}
+
+Node.js v22.17.1
